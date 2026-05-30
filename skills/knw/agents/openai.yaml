@@ -1,0 +1,4 @@
+interface:
+  display_name: "knw"
+  short_description: "Store and retrieve facts with knw"
+  default_prompt: "Use $knw to store or retrieve facts from the knw service."

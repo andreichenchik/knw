@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "hono": "^4.12.23",
+    "postgres": "^3.4.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.15",
+    "@types/bun": "latest",
+    "typescript": "^6.0.3",
+    "ultracite": "7.8.0"
+  },
+  "name": "knw",
+  "scripts": {
+    "dev": "bun run --hot src/server.ts",
+    "start": "bun src/server.ts",
+    "test": "bun test",
+    "check": "ultracite check",
+    "fix": "ultracite fix"
+  },
+  "type": "module"
+}
